@@ -142,7 +142,7 @@ nav{
   background: url("image/bg5.jpg");
   background-size: cover;
   background-attachment: fixed;
-  height: 150vh;
+  height: 170vh;
 }
 .container .section:nth-child(5){
   background: url("image/bg5.jpg");
@@ -197,7 +197,7 @@ nav{
 .intro{
     text-align: center;
     width: 100%;
-    margin-top: 12vh;
+    margin-top: 9vh;
     position: absolute;
 
     
@@ -486,15 +486,16 @@ nav{
     position: absolute;
     display: flex;
     width: 100%;
-    height: 150vh;
+    height: 100vh;
     flex-wrap: nowrap;
     justify-content: center;
     flex-direction: column;
     align-items: stretch;
-    background: rgb(2 41 70 / 24%);
-    backdrop-filter: blur(5.5px);
-    -webkit-backdrop-filter: blur(1px);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("image/bg10.png");
+    
 
     
 }
@@ -515,10 +516,11 @@ nav{
 
     width: 100%;
     height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url("image/bg10.png");
+   
+    background: rgb(2 41 70 / 24%);
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(1px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }
 .timer-section {
     min-height: 70vh;
@@ -751,7 +753,7 @@ nav{
 
 }
 .bo-box{
-  flex-basis: 25%;
+  flex-basis: 23%;
   width: 28%;
   height: 77%;
   background: rgb(0 27 66 / 15%);
@@ -808,7 +810,7 @@ nav{
 
 }
 .bo-box-con li{
-  font-size: .9rem;
+  font-size: .8rem;
   margin: 9px;
 
 }

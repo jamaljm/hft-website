@@ -519,46 +519,87 @@ nav{
     
 }
 .why-box{
-    width: 240px;
-    height: 185px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: rgb(2 41 70 / 25%);
-    box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
-    backdrop-filter: blur(18.5px);
-    -webkit-backdrop-filter: blur(1px);
-    border-radius: 20px;
-    margin: 20px;
+  width: 240px;
+  height: 185px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(2 41 70 / 25%);
+  box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+  backdrop-filter: blur(18.5px);
+  -webkit-backdrop-filter: blur(1px);
+  border-radius: 20px;
+  margin: 20px;
+}
+.why-box-1{
+  width: 240px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(2 41 70 / 25%);
+  box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+  backdrop-filter: blur(18.5px);
+  -webkit-backdrop-filter: blur(1px);
+  border-radius: 20px;
+  margin: 20px;
 }
 .view-img{
     flex-basis: 15%;
-    background: rgb(2 41 70 / 24%);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.03);
-    backdrop-filter: blur(5.5px);
-    -webkit-backdrop-filter: blur(1px);
     padding: 23px 26px;
     border-radius: 50%;
     margin-top: -40px;
 
 }
+.view-img-1{
+  flex-basis: 20%;
+  padding: 17px 26px;
+  border-radius: 50%;
+  margin-top: -50px;
+
+}
 .view-img img{
     width: 35px;
 }
+.view-img-1 img{
+  width: 80px;
+  border-radius: 50%;
+}
 .view-content{
-    flex-basis: 70%;
-    height: 100%;
-    width: 100%;
-    text-align: center;
-    color: #fff;
+  flex-basis: 70%;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+
+
+}
+.view-content-1{
+  flex-basis: 70%;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  color: #fff;
 
 
 }
 .view-content p{
-    margin: 20px;
-    font-size: 13px;
-    top: 5px;
+  margin: 20px;
+  font-size: 13px;
+  top: 5px;
 
+
+}
+.view-content-1 p{
+  margin: 9px 10px 23px 10px;
+  font-size: 11px;
+  top: 0px;
+
+}
+.view-content-1 h4{
+  margin: 0px;
+  font-size: 16px;
+  font-weight: 500;
 
 }
 .content4{

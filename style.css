@@ -546,9 +546,10 @@ nav{
 }
 .view-img{
     flex-basis: 15%;
-    padding: 23px 26px;
+    padding: 20px 23px;
     border-radius: 50%;
     margin-top: -40px;
+    background: #10354f6e;
 
 }
 .view-img-1{

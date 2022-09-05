@@ -1,0 +1,83 @@
+@media screen and (max-width: 764px) {
+    
+    .intro{
+        text-align: center;
+        width: 100%;
+        margin-top: 11vh;
+        position: absolute;
+    
+        
+    }
+    .intro img{
+        width: 70%;
+    }
+    .intro h3{
+        font-size: 12px;
+        margin-top: 10px;
+
+    }
+
+    .big-text {
+        font-size: 0.9rem;
+        margin: 0.9rem 0.8rem;
+    }
+    .countdown-el span {
+        font-size: 0.5rem;
+
+    }
+    .countdown-container {
+       
+        margin-top: -11px;
+    }
+    .intro a {
+        width: 30px;
+        padding: 9px 24px;
+        text-decoration: none;
+        margin-top: 20px;
+        font-size: 12px;
+    }
+    #dev img {
+        width: 15px;
+    }
+    #arrow-image img {
+        width: 40px;
+    }
+    .about-box {
+
+        width: 100%;
+    }
+    .about-left p {
+        padding: 0px 31px 0px 25px;
+        font-size: 10px;
+    }
+    .about-box {
+       
+        height: 100%;
+        width: 100%;
+        align-items: center;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        top: 32px;
+        left: 0%;
+        border-radius: 20px;
+    }
+    .about-left h2 {
+        padding: 25px 65px 10px 27px;
+        font-size: 30px;
+    }
+    .left-content-1 {
+        flex-basis: 40%;
+    }
+    .content2 {
+  
+        height: 123vh;
+    }
+  .right-image-1 img {
+    width: 100vw;
+  }
+
+
+
+
+}

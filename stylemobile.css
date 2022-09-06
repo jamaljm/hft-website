@@ -59,6 +59,10 @@
 
     margin-top: -11px;
 }
+.container-2 .section:nth-child(1) {
+   
+    background-position: center;
+}
 .intro a {
     width: 30px;
     padding: 9px 24px;

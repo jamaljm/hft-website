@@ -12,13 +12,30 @@
         display: none;
         
     }
-
+#particles-js{
+    height: 100vh;
+}
+.container .section:nth-child(1){
+    background: url("image/bg1m.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
 .intro{
     text-align: center;
     width: 100%;
-    margin-top: 11vh;
+    margin-top: 19vh;
     position: absolute;
 
+
+}
+.content1{
+    position: absolute;
+    background-image: url("image/bg2m.png");
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 .intro img{

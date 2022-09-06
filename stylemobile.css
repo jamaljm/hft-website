@@ -86,7 +86,7 @@
     width: 100%;
     align-items: center;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     flex-direction: column;
     top: 0px;
     left: 0%;

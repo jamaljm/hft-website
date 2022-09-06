@@ -88,20 +88,21 @@
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    top: 32px;
+    top: 0px;
     left: 0%;
     border-radius: 20px;
 }
 .about-left h2 {
-    padding: 25px 65px 10px 27px;
+    padding: 40px 65px 16px 26px ;
     font-size: 30px;
 }
 .left-content-1 {
     flex-basis: 40%;
 }
 .content2 {
+    flex-direction: column;
 
-    height: 108vh;
+    height: 110vh;
 }
 .right-image-1 img {
     width: 100%;
@@ -136,7 +137,7 @@
 }
 .right-image-1 {
 
-    margin-top: -40px;
+    margin-top: 0px;
 
 }
 .content3 {
@@ -153,7 +154,7 @@
     flex-direction: column;
     align-items: center;
     border-radius: 20px;
-    margin-top: 45px;
+    margin-top: 8%;
 }
 .intro-32 {
     width: 100%;

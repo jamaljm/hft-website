@@ -114,7 +114,7 @@
     width: 40px;
 }
 .about-box {
-
+    margin-bottom: 0px;
     width: 100%;
 }
 .about-left p {
@@ -150,11 +150,11 @@
 }
 
 .why-heading h2 {
-    margin-bottom: 25px;
+    margin-bottom: 35px;
     color: #fff;
     font-size: 25px;
     font-family: 'poppins', sans-serif;
-    margin-top: 20px;
+    margin-top: 70px;
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -171,6 +171,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-top: 0px;
 }
 .right-image-1 {
 
@@ -196,7 +197,7 @@
     flex-direction: column;
     align-items: center;
     border-radius: 20px;
-    margin-top: 14%;
+    margin-top: 12%;
 }
 .intro-32 {
     width: 100%;
@@ -206,7 +207,9 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(image/prize1.png);
+    background-image: url(image/prize.png);
+    background:linear-gradient(90deg, rgba(2,0,3,1) 0%, rgba(4,0,21,1) 27%, rgba(0,0,27,1) 100%);
+    ;
 }
 .content311 {
     position: relative;
@@ -263,11 +266,6 @@
     width: 0%;
 }
 
-.why-heading-2 h2 {
-   
-    font-size: 25px;
-
-}
 .bounty-description{
     margin-bottom: 38px;
 }
@@ -310,9 +308,14 @@
     transform: translateX(-50%);
   }
   .why-heading-2 h2 {
+    margin-top: 57px;
+    font-size: 25px;
 
-    margin-top: 20px;
-
+}
+.why-heading-22 h2 {
+    margin-top: 35px;
+    font-size: 25px;
+    margin-bottom: 32px;
 }
 #first-prize {
     width: 99%;
@@ -370,5 +373,11 @@
 .why-box-1 {
     width: 240px;
     margin: 30px;
+}
+
+.view-content p {
+    margin: 20px;
+    font-size: 80%;
+    margin-top: 21px;
 }
 }

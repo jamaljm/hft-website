@@ -556,6 +556,13 @@ nav{
   justify-content: center;
   margin-top: 13px;
 }
+.why-content-31 {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 13px;
+}
 .why-box{
   width: 240px;
   height: 185px;

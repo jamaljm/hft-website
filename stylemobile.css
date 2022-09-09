@@ -12,7 +12,7 @@
         top: 0;
         right: 0px;
         text-align: left;
-        transition: 1s;
+        transition: 5s;
     }
     .nav-button{
         margin-top: 10px;
@@ -43,6 +43,10 @@
 #particles-js{
     height: 100vh;
 }
+.logo {
+    width: 11vh;
+}
+
 .container .section:nth-child(1){
     background: url("image/bg1m.jpg");
     background-size: cover;

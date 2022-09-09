@@ -256,7 +256,12 @@ nav{
     -webkit-backdrop-filter: blur(1px);
     margin-top: 20px;
     font-family: "Poppins", sans-serif;
+    transition: .5s;
 
+}
+.intro a:hover{
+  background: rgb(199 199 199 / 18%);
+  transition: .5s;
 }
 
 #arrow-image {

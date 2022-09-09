@@ -94,6 +94,18 @@ nav{
 .nav-button {
     transition: all 0.3s ease;
   }
+
+  nav .fa{
+    display: none;
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    font-size: 22px;
+    cursor: pointer;
+}
+.fa{
+    width: 20px;
+}
+
   
   span {
     display: inline-block;

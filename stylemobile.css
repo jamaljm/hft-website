@@ -1,16 +1,44 @@
 @media screen and (max-width: 764px) {
 
 
-    nav{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 0px 5% 0px 2.5%;
-        position: sticky;
-        top:0;
-        z-index: 5;
+    .nav-middle {
         display: none;
-        
+        margin-top: 0;
+        position: absolute;
+        background: rgba(2, 41, 70, 0.153);
+        backdrop-filter: blur(5.5px);
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: 0px;
+        text-align: left;
+        transition: 1s;
+    }
+    .nav-button{
+        margin-top: 10px;
+    }
+    .nav-middle {
+    
+    }
+    nav .fa{
+        display: block;
+        color: rgb(0, 0, 0);
+        margin-top: 30px;
+    
+    }
+    #close{
+        margin-left: 22px;
+        width: 13px;
+        margin-bottom: 30px;
+
+    }
+    .nav-button a {
+
+        font-size: 11px;
+    }
+
+    #clg-logo{
+        display: none;
     }
 #particles-js{
     height: 100vh;
@@ -23,7 +51,7 @@
 .intro{
     text-align: center;
     width: 100%;
-    margin-top: 19vh;
+    margin-top: 9vh;
     position: absolute;
 
 

@@ -62,3 +62,14 @@ countdown();
 
 setInterval(countdown, 1000);
 
+
+var navLinks = document.getElementById("nav-links");
+
+function showmenu(){
+    navLinks.style.display = "block";
+
+}
+function hidemenu(){
+    navLinks.style.display = "none";
+
+}

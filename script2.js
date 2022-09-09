@@ -64,12 +64,18 @@ setInterval(countdown, 1000);
 
 
 var navLinks = document.getElementById("nav-links");
+let width = screen.width;
+window.alert(width);
 
 function showmenu(){
+   
     navLinks.style.display = "block";
 
 }
 function hidemenu(){
-    navLinks.style.display = "none";
+    if ( width < 764 ){
+        navLinks.style.display = "none";
+    }
+   
 
 }

@@ -65,7 +65,6 @@ setInterval(countdown, 1000);
 
 var navLinks = document.getElementById("nav-links");
 let width = screen.width;
-window.alert(width);
 
 function showmenu(){
    

@@ -1,7 +1,8 @@
 @media screen and (max-width: 764px) {
 
     .container-2 .section:nth-child(1) {
-        background: url(image/bg1m.jpg);
+        background: rgb(0,0,0);
+        /* background: linear-gradient(119deg, rgba(0,0,0,1) 0%, rgba(8,0,47,1) 83%, rgba(2,0,48,1) 100%); */
    
     }
     .nav-middle {
@@ -75,7 +76,7 @@
 
 }
 .intro img{
-    width: 70%;
+    width: 74%;
     }
 .intro h3{
     font-size: 12px;
@@ -181,6 +182,12 @@
     display: flex;
     width: 100%;
     flex-wrap: wrap;
+    background: linear-gradient(90deg, rgba(2,0,3,1) 0%, rgba(5,0,29,1) 60%, rgba(0,0,27,1) 100%);
+}
+.content31 {
+
+    background:  linear-gradient(90deg, rgba(2,0,3,1) 0%, rgba(3,0,16,1) 60%, rgba(0,0,27,1) 100%);
+
 }
 .why-box {
     width: 240px;

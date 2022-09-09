@@ -261,7 +261,7 @@ nav{
     position: relative;
     display: flex;
     width: 100%;
-    height: 100vh;
+
     flex-wrap: wrap;
     background-position: center;
     background-repeat: no-repeat;
@@ -379,7 +379,8 @@ nav{
     display: flex;
     justify-content: center;
     flex-direction: row;
-    top: 70px;
+    margin-top: 70px;
+    margin-bottom: 50px;
     left: 6%;
     border-radius: 20px;
 }
@@ -414,7 +415,6 @@ nav{
   position: relative;
   display: flex;
   width: 100%;
-  height: 170vh;
   flex-wrap: wrap;
   background: rgba(2, 41, 70, 0.153);
   backdrop-filter: blur(5.5px);
@@ -426,7 +426,6 @@ nav{
   position: relative;
   display: flex;
   width: 100%;
-  height: 170vh;
   flex-wrap: wrap;
   background: rgba(2, 41, 70, 0.153);
   backdrop-filter: blur(5.5px);
@@ -438,7 +437,6 @@ nav{
   position: relative;
   display: flex;
   width: 100%;
-  height: 100vh;
   flex-wrap: wrap;
   background: rgba(2, 41, 70, 0.153);
   backdrop-filter: blur(5.5px);
@@ -458,9 +456,21 @@ nav{
   background-image: url("image/grid2.png");
 
 }
+.intro-35{
+  width: 100%;
+  height: 100%;
+  border-radius: 0% 0% 0% 0%;
+  display: flex;
+  flex-direction: column;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("image/grid2.png");
+  padding: 40px;
+
+}
 .intro-31{
   width: 100%;
-  height: 100vh;
   border-radius: 0% 0% 0% 0%;
   display: flex;
   flex-direction: column;
@@ -472,7 +482,6 @@ nav{
 }
 .intro-32{
   width: 100%;
-  height: 100vh;
   border-radius: 0% 0% 0% 0%;
   display: flex;
   flex-direction: column;
@@ -484,25 +493,24 @@ nav{
 }
 .why-heading,.why-heading-2,.why-heading-3{
     width: 100%;
-    height: 20%;
     text-align: center;
     border-radius: 30px;
 
 
 }
 .why-heading h2{
-  margin-bottom: 90px;
+  margin-bottom: 50px;
   color: #fff;
   font-size: 40px;
   font-family: 'poppins', sans-serif;
-  margin-top: 20px;
+  margin-top: 25px;
   font-weight: 700;
   letter-spacing: 1px;
 
 
 }
 .why-heading-2 h2{
-  margin-bottom: 90px;
+  margin-bottom: 26px;
   color: #fff;
   font-size: 40px;
   font-family: 'poppins', sans-serif;
@@ -517,7 +525,7 @@ nav{
   color: #fff;
   font-size: 40px;
   font-family: 'poppins', sans-serif;
-  margin-top: 312px;
+  margin-top: 50px;
   font-weight: 700;
   letter-spacing: 1px;
   text-align: center;
@@ -542,6 +550,14 @@ nav{
     align-items: flex-start;
     justify-content: center;
     
+}
+.why-content-3 {
+  display: flex;
+  width: 100%;
+  top: 5vh;
+  align-items: center;
+  justify-content: center;
+  margin-top: 13px;
 }
 .why-box{
   width: 240px;
@@ -678,7 +694,7 @@ nav{
   
   .timer-section .timer-container {
     list-style: none;
-    margin-top: 60px;
+    margin-top: 90px;
 
   }
   .timer-section .timer {
@@ -841,26 +857,13 @@ nav{
   backdrop-filter: blur(5.5px);
   -webkit-backdrop-filter: blur(1px);
 }
-.prize-heading{
-  flex-basis: 20%;
-  position: relative;
 
-}
-.prize-heading h2{
-  color: #fff;
-  font-size: 40px;
-  font-family: 'Russo One', sans-serif;
-  margin-top: 40px;
-  font-weight: 200;
-  letter-spacing: 1px;
 
-}
 .prize-content1{
   flex-basis: 40%;
   display: flex;
   position: relative;
   width: 100%;
-  height: 100%;
   align-items: center;
   margin-left: 0px;
   justify-content: center;
@@ -947,11 +950,12 @@ nav{
 .bo-content{
   display: flex;
   width: 100%;
-  height: 92vh;
   position: relative;
   align-items: center;
   justify-content: center;
   flex-basis: 100%;
+  margin-top: 70px;
+  margin-bottom: 20px;
 
 }
 .bo-box{
